@@ -9,6 +9,8 @@ test('logg inn og se produkter', async ({ page }) => {
   await page.fill('#password', 'secret_sauce');
   await page.click('#login-button');
 
+  //test noe
+  
   // Sjekk at vi kom inn
   await expect(page).toHaveURL(/inventory/);
   await expect(page.locator('.inventory_list')).toBeVisible();
