@@ -8,8 +8,6 @@ test('logg inn og se produkter', async ({ page }) => {
   await page.fill('#user-name', 'standard_user');
   await page.fill('#password', 'secret_sauce');
   await page.click('#login-button');
-
-  //test noe
   
   // Sjekk at vi kom inn
   await expect(page).toHaveURL(/inventory/);
