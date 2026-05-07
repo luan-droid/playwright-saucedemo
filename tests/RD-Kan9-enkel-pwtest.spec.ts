@@ -16,6 +16,8 @@ test('feilmelding ved feil passord', async ({ page }) => {
   // Sjekk at bruker forblir på innloggingssiden
   await expect(page).toHaveURL('https://www.saucedemo.com/');
 
+  //hei
+
   // Sjekk at feilmelding inneholder spesifikk tekst
   await expect(errorMessage).toContainText('Username and password do not match');
 });

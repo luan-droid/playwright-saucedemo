@@ -12,6 +12,8 @@ test('Alle produkter vises på inventory-siden', async ({ page }) => {
   // Sjekk at siden laster uten feil
   await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html');
 
+
+  //hei
   // Sjekk at alle 6 produkter vises
   const productItems = page.locator('.inventory_item');
   await expect(productItems).toHaveCount(6);
