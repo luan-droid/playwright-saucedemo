@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('Alle produkter vises på inventory-siden', async ({ page }) => {
-  // Gå til siden
+  // Gå til siden test  1 2 3 
   await page.goto('https://www.saucedemo.com');
 
   // Logg inn
