@@ -42,15 +42,8 @@ npm run report
 ```
 playwright-saucedemo/
 ├── tests/              # Testfiler (.spec.ts)
-│   ├── login.spec.ts       # US-01, US-02, US-03
-│   ├── products.spec.ts    # US-04, US-05
-│   ├── cart.spec.ts        # US-06, US-07
-│   └── checkout.spec.ts    # US-08, US-09
 ├── pages/              # Page Object Model
-│   ├── LoginPage.ts
-│   ├── ProductsPage.ts
-│   ├── CartPage.ts
-│   └── CheckoutPage.ts
+
 ├── fixtures/
 │   └── testData.ts     # Testbrukere og testdata
 └── playwright.config.ts
