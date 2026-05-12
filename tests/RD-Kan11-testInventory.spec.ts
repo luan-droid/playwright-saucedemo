@@ -16,7 +16,7 @@ test('Alle produkter vises på inventory-siden', async ({ page }) => {
   //hei
   // Sjekk at alle 6 produkter vises
   const productItems = page.locator('.inventory_item');
-  await expect(productItems).toHaveCount(6);
+     await expect(productItems).toHaveCount(6);
 
   // Sjekk at hvert produkt har navn, pris og bilde
   for (let i = 0; i < 6; i++) {
