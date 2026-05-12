@@ -2,7 +2,7 @@
 
 
 import { test, expect } from '@playwright/test';
-
+-
 test('Fullføre kjøp – med logging og screenshots', async ({ page }, testInfo) => {
   const log = (msg: string) => console.log(`✅ ${msg}`);
 
