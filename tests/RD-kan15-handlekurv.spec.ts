@@ -13,7 +13,7 @@ test('Fullføre kjøp – med logging og screenshots', async ({ page }, testInfo
   };
 
   try {
-    // 1. Login
+    // 1. Login første gang
     log('Åpner SauceDemo');
     await page.goto('https://www.saucedemo.com/');
     await screenshot('01-login.png');
